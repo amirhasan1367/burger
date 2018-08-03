@@ -5,6 +5,7 @@
 <ul>
   {{#each burger}}
     {{#unless devoured}}
+    <p>Burger Selection: {{name}}</p>
       {{!-- {{> burgers/burger-block devoured=true}} --}}
     {{/unless}}
   {{/each}}
@@ -15,6 +16,7 @@
 <ul>
   {{#each burgers}}
     {{#if devoured}}
+    <p>Burger Selection: {{name}}</p>
       {{!-- {{> burgers/burger-block devoured=false}} --}}
     {{/if}}
   {{/each}}
