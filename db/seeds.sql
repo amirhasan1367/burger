@@ -1,5 +1,4 @@
-INSERT INTO burgers (name) VALUES ('cheese');
-INSERT INTO burgers (name) VALUES ('pizza');
-INSERT INTO burgers (name, devoured) VALUES ('cheese', true);
-INSERT INTO burgers (name, sleepy) VALUES ('bacon', true);
-INSERT INTO burgers (name) VALUES ('blue');
+INSERT INTO `burgers_db`.`burgers` (`name`) VALUES ('ShackBurger');
+INSERT INTO `burgers_db`.`burgers` (`name`) VALUES ('SmokeShack');
+INSERT INTO `burgers_db`.`burgers` (`name`) VALUES ('Shroom Burger');
+INSERT INTO `burgers_db`.`burgers` (`name`) VALUES ('Shack Stack');
